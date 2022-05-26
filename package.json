@@ -1,0 +1,17 @@
+{
+  "name": "my-project",
+  "source": "/src/index.html",
+  "browserslist": [
+    "last 2 versions, not dead",
+    "not ie <= 11"
+  ],
+  "scripts": {
+    "start": "parcel",
+    "build": "parcel build src/index.html --dist-dir build  --no-source-maps"
+  },
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "parcel": "^2.5.0",
+    "sharp": "^0.29.3"
+  }
+}
